@@ -1,0 +1,6 @@
+#ifndef ASSIGNMENT1_FILE_PRIVILEGES_H
+#define ASSIGNMENT1_FILE_PRIVILEGES_H
+
+int changePermissions(char mode[]);
+
+#endif // ASSIGNMENT1_FILE_PRIVILEGES_H

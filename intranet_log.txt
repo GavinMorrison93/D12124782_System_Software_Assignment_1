@@ -1,0 +1,62 @@
+----
+time->Fri Mar 22 12:16:17 2019
+type=PROCTITLE msg=audit(1553256977.394:130): proctitle=2F7573722F62696E2F6765646974002D2D676170706C69636174696F6E2D73657276696365
+type=PATH msg=audit(1553256977.394:130): item=1 name="/home/gav/Assignment1/intranet/page2.html" inode=131131 dev=08:01 mode=0100770 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL
+type=PATH msg=audit(1553256977.394:130): item=0 name="/home/gav/Assignment1/intranet/" inode=157250 dev=08:01 mode=040777 ouid=1000 ogid=1000 rdev=00:00 nametype=PARENT
+type=CWD msg=audit(1553256977.394:130): cwd="/home/gav"
+type=SYSCALL msg=audit(1553256977.394:130): arch=c000003e syscall=2 success=yes exit=16 a0=5610cc390380 a1=20041 a2=1b6 a3=9e items=2 ppid=944 pid=1655 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=3 comm="pool" exe="/usr/bin/gedit" key=(null)
+----
+time->Fri Mar 22 12:16:17 2019
+type=PROCTITLE msg=audit(1553256977.394:129): proctitle=2F7573722F62696E2F6765646974002D2D676170706C69636174696F6E2D73657276696365
+type=PATH msg=audit(1553256977.394:129): item=1 name="/home/gav/Assignment1/intranet/page2.html" inode=131131 dev=08:01 mode=0100770 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL
+type=PATH msg=audit(1553256977.394:129): item=0 name="/home/gav/Assignment1/intranet/" inode=157250 dev=08:01 mode=040777 ouid=1000 ogid=1000 rdev=00:00 nametype=PARENT
+type=CWD msg=audit(1553256977.394:129): cwd="/home/gav"
+type=SYSCALL msg=audit(1553256977.394:129): arch=c000003e syscall=2 success=no exit=-17 a0=5610cc390380 a1=c1 a2=1b6 a3=aaaaaaaaaaaaaaab items=2 ppid=944 pid=1655 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=3 comm="pool" exe="/usr/bin/gedit" key=(null)
+----
+time->Fri Mar 22 12:16:17 2019
+type=PROCTITLE msg=audit(1553256977.394:131): proctitle=2F7573722F62696E2F6765646974002D2D676170706C69636174696F6E2D73657276696365
+type=PATH msg=audit(1553256977.394:131): item=1 name="/home/gav/Assignment1/intranet/.goutputstream-SD4YYZ" inode=131234 dev=08:01 mode=0100644 ouid=1000 ogid=1000 rdev=00:00 nametype=CREATE
+type=PATH msg=audit(1553256977.394:131): item=0 name="/home/gav/Assignment1/intranet/" inode=157250 dev=08:01 mode=040777 ouid=1000 ogid=1000 rdev=00:00 nametype=PARENT
+type=CWD msg=audit(1553256977.394:131): cwd="/home/gav"
+type=SYSCALL msg=audit(1553256977.394:131): arch=c000003e syscall=2 success=yes exit=17 a0=7fd1e00049f0 a1=c1 a2=1b6 a3=bc408912474c1 items=2 ppid=944 pid=1655 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=3 comm="pool" exe="/usr/bin/gedit" key=(null)
+----
+time->Fri Mar 22 12:16:17 2019
+type=PROCTITLE msg=audit(1553256977.430:132): proctitle=2F7573722F62696E2F6765646974002D2D676170706C69636174696F6E2D73657276696365
+type=PATH msg=audit(1553256977.430:132): item=4 name="/home/gav/Assignment1/intranet/page2.html" inode=131234 dev=08:01 mode=0100770 ouid=1000 ogid=1000 rdev=00:00 nametype=CREATE
+type=PATH msg=audit(1553256977.430:132): item=3 name="/home/gav/Assignment1/intranet/page2.html" inode=131131 dev=08:01 mode=0100770 ouid=1000 ogid=1000 rdev=00:00 nametype=DELETE
+type=PATH msg=audit(1553256977.430:132): item=2 name="/home/gav/Assignment1/intranet/.goutputstream-SD4YYZ" inode=131234 dev=08:01 mode=0100770 ouid=1000 ogid=1000 rdev=00:00 nametype=DELETE
+type=PATH msg=audit(1553256977.430:132): item=1 name="/home/gav/Assignment1/intranet/" inode=157250 dev=08:01 mode=040777 ouid=1000 ogid=1000 rdev=00:00 nametype=PARENT
+type=PATH msg=audit(1553256977.430:132): item=0 name="/home/gav/Assignment1/intranet/" inode=157250 dev=08:01 mode=040777 ouid=1000 ogid=1000 rdev=00:00 nametype=PARENT
+type=CWD msg=audit(1553256977.430:132): cwd="/home/gav"
+type=SYSCALL msg=audit(1553256977.430:132): arch=c000003e syscall=82 success=yes exit=0 a0=7fd1e00049f0 a1=7fd1e0004960 a2=0 a3=642 items=5 ppid=944 pid=1655 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=3 comm="pool" exe="/usr/bin/gedit" key=(null)
+----
+time->Fri Mar 22 12:16:52 2019
+type=PROCTITLE msg=audit(1553257012.774:134): proctitle=2F7573722F62696E2F6765646974002D2D676170706C69636174696F6E2D73657276696365
+type=PATH msg=audit(1553257012.774:134): item=1 name="/home/gav/Assignment1/intranet/page5.html" inode=131278 dev=08:01 mode=0100770 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL
+type=PATH msg=audit(1553257012.774:134): item=0 name="/home/gav/Assignment1/intranet/" inode=157250 dev=08:01 mode=040777 ouid=1000 ogid=1000 rdev=00:00 nametype=PARENT
+type=CWD msg=audit(1553257012.774:134): cwd="/home/gav"
+type=SYSCALL msg=audit(1553257012.774:134): arch=c000003e syscall=2 success=yes exit=16 a0=559df561d9c0 a1=20041 a2=1b6 a3=9e items=2 ppid=944 pid=1667 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=3 comm="pool" exe="/usr/bin/gedit" key=(null)
+----
+time->Fri Mar 22 12:16:52 2019
+type=PROCTITLE msg=audit(1553257012.774:135): proctitle=2F7573722F62696E2F6765646974002D2D676170706C69636174696F6E2D73657276696365
+type=PATH msg=audit(1553257012.774:135): item=1 name="/home/gav/Assignment1/intranet/.goutputstream-SZJGZZ" inode=131429 dev=08:01 mode=0100644 ouid=1000 ogid=1000 rdev=00:00 nametype=CREATE
+type=PATH msg=audit(1553257012.774:135): item=0 name="/home/gav/Assignment1/intranet/" inode=157250 dev=08:01 mode=040777 ouid=1000 ogid=1000 rdev=00:00 nametype=PARENT
+type=CWD msg=audit(1553257012.774:135): cwd="/home/gav"
+type=SYSCALL msg=audit(1553257012.774:135): arch=c000003e syscall=2 success=yes exit=17 a0=7f9d30002140 a1=c1 a2=1b6 a3=171734112474c1 items=2 ppid=944 pid=1667 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=3 comm="pool" exe="/usr/bin/gedit" key=(null)
+----
+time->Fri Mar 22 12:16:52 2019
+type=PROCTITLE msg=audit(1553257012.806:136): proctitle=2F7573722F62696E2F6765646974002D2D676170706C69636174696F6E2D73657276696365
+type=PATH msg=audit(1553257012.806:136): item=4 name="/home/gav/Assignment1/intranet/page5.html" inode=131429 dev=08:01 mode=0100770 ouid=1000 ogid=1000 rdev=00:00 nametype=CREATE
+type=PATH msg=audit(1553257012.806:136): item=3 name="/home/gav/Assignment1/intranet/page5.html" inode=131278 dev=08:01 mode=0100770 ouid=1000 ogid=1000 rdev=00:00 nametype=DELETE
+type=PATH msg=audit(1553257012.806:136): item=2 name="/home/gav/Assignment1/intranet/.goutputstream-SZJGZZ" inode=131429 dev=08:01 mode=0100770 ouid=1000 ogid=1000 rdev=00:00 nametype=DELETE
+type=PATH msg=audit(1553257012.806:136): item=1 name="/home/gav/Assignment1/intranet/" inode=157250 dev=08:01 mode=040777 ouid=1000 ogid=1000 rdev=00:00 nametype=PARENT
+type=PATH msg=audit(1553257012.806:136): item=0 name="/home/gav/Assignment1/intranet/" inode=157250 dev=08:01 mode=040777 ouid=1000 ogid=1000 rdev=00:00 nametype=PARENT
+type=CWD msg=audit(1553257012.806:136): cwd="/home/gav"
+type=SYSCALL msg=audit(1553257012.806:136): arch=c000003e syscall=82 success=yes exit=0 a0=7f9d30002140 a1=7f9d30001cb0 a2=0 a3=642 items=5 ppid=944 pid=1667 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=3 comm="pool" exe="/usr/bin/gedit" key=(null)
+----
+time->Fri Mar 22 12:16:52 2019
+type=PROCTITLE msg=audit(1553257012.774:133): proctitle=2F7573722F62696E2F6765646974002D2D676170706C69636174696F6E2D73657276696365
+type=PATH msg=audit(1553257012.774:133): item=1 name="/home/gav/Assignment1/intranet/page5.html" inode=131278 dev=08:01 mode=0100770 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL
+type=PATH msg=audit(1553257012.774:133): item=0 name="/home/gav/Assignment1/intranet/" inode=157250 dev=08:01 mode=040777 ouid=1000 ogid=1000 rdev=00:00 nametype=PARENT
+type=CWD msg=audit(1553257012.774:133): cwd="/home/gav"
+type=SYSCALL msg=audit(1553257012.774:133): arch=c000003e syscall=2 success=no exit=-17 a0=559df561d9c0 a1=c1 a2=1b6 a3=aaaaaaaaaaaaaaab items=2 ppid=944 pid=1667 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=3 comm="pool" exe="/usr/bin/gedit" key=(null)
